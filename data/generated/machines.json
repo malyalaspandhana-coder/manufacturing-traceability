@@ -1,0 +1,152 @@
+[
+  {
+    "machine_id":"MCH-0001",
+    "machine_name":"Machine 1",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0002",
+    "machine_name":"Machine 2",
+    "machine_type":"Welding Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0003",
+    "machine_name":"Machine 3",
+    "machine_type":"Assembly Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0004",
+    "machine_name":"Machine 4",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0005",
+    "machine_name":"Machine 5",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0006",
+    "machine_name":"Machine 6",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0007",
+    "machine_name":"Machine 7",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0008",
+    "machine_name":"Machine 8",
+    "machine_type":"Assembly Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0009",
+    "machine_name":"Machine 9",
+    "machine_type":"Cutting Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0010",
+    "machine_name":"Machine 10",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0011",
+    "machine_name":"Machine 11",
+    "machine_type":"Assembly Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0012",
+    "machine_name":"Machine 12",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0013",
+    "machine_name":"Machine 13",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0014",
+    "machine_name":"Machine 14",
+    "machine_type":"Packaging Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0015",
+    "machine_name":"Machine 15",
+    "machine_type":"Welding Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0016",
+    "machine_name":"Machine 16",
+    "machine_type":"Assembly Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0017",
+    "machine_name":"Machine 17",
+    "machine_type":"CNC Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0018",
+    "machine_name":"Machine 18",
+    "machine_type":"Packaging Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0019",
+    "machine_name":"Machine 19",
+    "machine_type":"Welding Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0020",
+    "machine_name":"Machine 20",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0021",
+    "machine_name":"Machine 21",
+    "machine_type":"CNC Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0022",
+    "machine_name":"Machine 22",
+    "machine_type":"Cutting Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0023",
+    "machine_name":"Machine 23",
+    "machine_type":"Packaging Machine",
+    "status":"Active"
+  },
+  {
+    "machine_id":"MCH-0024",
+    "machine_name":"Machine 24",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  },
+  {
+    "machine_id":"MCH-0025",
+    "machine_name":"Machine 25",
+    "machine_type":"Cutting Machine",
+    "status":"Maintenance"
+  }
+]

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machines & Process Steps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manufacturing Traceability System</h1>
+        <p>Smart Production & Quality Monitoring</p>
+    </header>
+
+    <main class="main-content">
+        <h2>Machines & Process Steps</h2>
+
+        <h3>Machine Management</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Machine ID</th>
+                    <th>Machine Name</th>
+                    <th>Machine Type</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="machines-table">
+                <tr><td colspan="4">Loading machines...</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Production Process Steps</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Process Step ID</th>
+                    <th>Order ID</th>
+                    <th>Machine ID</th>
+                    <th>Step Name</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="process-steps-table">
+                <tr><td colspan="5">Loading process steps...</td></tr>
+            </tbody>
+        </table>
+
+        <p><a href="index.html">Back to Dashboard</a></p>
+    </main>
+
+    <script src="machines_process.js"></script>
+</body>
+</html>

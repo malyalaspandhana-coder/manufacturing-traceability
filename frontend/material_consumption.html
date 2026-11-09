@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Consumption | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Manufacturing Traceability System</h1>
+    <p>Smart Production & Quality Monitoring</p>
+</header>
+
+<main class="main-content">
+    <h2>Material Consumption</h2>
+    <p>View materials consumed in production orders.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Consumption ID</th>
+                <th>Production Order</th>
+                <th>Material Lot</th>
+                <th>Product</th>
+                <th>Quantity Consumed</th>
+            </tr>
+        </thead>
+
+        <tbody id="consumption-table">
+            <tr>
+                <td colspan="5">Loading records...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="consumption-status">Connecting to server...</p>
+    <p><a href="index.html">Back to Dashboard</a></p>
+</main>
+
+<script src="material_consumption.js"></script>
+</body>
+</html>

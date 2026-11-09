@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPA Management | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Manufacturing Traceability System</h1>
+    <p>Smart Production & Quality Monitoring</p>
+</header>
+
+<main class="main-content">
+    <h2>Corrective and Preventive Action Management</h2>
+    <p>Monitor defect-related corrective and preventive actions.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>CAPA ID</th>
+                <th>Defect ID</th>
+                <th>Production Order</th>
+                <th>Root Cause</th>
+                <th>Corrective Action</th>
+                <th>Preventive Action</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody id="capa-table">
+            <tr>
+                <td colspan="7">Loading CAPA records...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="capa-status">Connecting to server...</p>
+    <p><a href="index.html">Back to Dashboard</a></p>
+</main>
+
+<script src="capa_management.js"></script>
+</body>
+</html>

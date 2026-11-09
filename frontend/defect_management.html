@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defect Management | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Manufacturing Traceability System</h1>
+    <p>Smart Production & Quality Monitoring</p>
+</header>
+
+<main class="main-content">
+    <h2>Defect Management</h2>
+    <p>Monitor defects and investigate affected production orders.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Defect ID</th>
+                <th>Inspection ID</th>
+                <th>Production Order ID</th>
+                <th>Defect Type</th>
+                <th>Severity</th>
+                <th>Defect Quantity</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="defect-table">
+            <tr>
+                <td colspan="7">Loading defect records...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="defect-status">Connecting to server...</p>
+    <p><a href="index.html">Back to Dashboard</a></p>
+</main>
+
+<script src="defect_management.js"></script>
+</body>
+</html>

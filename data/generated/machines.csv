@@ -1,0 +1,26 @@
+machine_id,machine_name,machine_type,status
+MCH-0001,Machine 1,CNC Machine,Active
+MCH-0002,Machine 2,Welding Machine,Active
+MCH-0003,Machine 3,Assembly Machine,Active
+MCH-0004,Machine 4,CNC Machine,Active
+MCH-0005,Machine 5,Cutting Machine,Maintenance
+MCH-0006,Machine 6,CNC Machine,Active
+MCH-0007,Machine 7,CNC Machine,Active
+MCH-0008,Machine 8,Assembly Machine,Active
+MCH-0009,Machine 9,Cutting Machine,Active
+MCH-0010,Machine 10,Cutting Machine,Maintenance
+MCH-0011,Machine 11,Assembly Machine,Maintenance
+MCH-0012,Machine 12,Cutting Machine,Maintenance
+MCH-0013,Machine 13,CNC Machine,Active
+MCH-0014,Machine 14,Packaging Machine,Maintenance
+MCH-0015,Machine 15,Welding Machine,Active
+MCH-0016,Machine 16,Assembly Machine,Maintenance
+MCH-0017,Machine 17,CNC Machine,Active
+MCH-0018,Machine 18,Packaging Machine,Active
+MCH-0019,Machine 19,Welding Machine,Maintenance
+MCH-0020,Machine 20,Cutting Machine,Maintenance
+MCH-0021,Machine 21,CNC Machine,Maintenance
+MCH-0022,Machine 22,Cutting Machine,Active
+MCH-0023,Machine 23,Packaging Machine,Active
+MCH-0024,Machine 24,Cutting Machine,Maintenance
+MCH-0025,Machine 25,Cutting Machine,Maintenance

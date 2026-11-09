@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traceability Investigation | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>YottaFlex Manufacturing Traceability</h1>
+    <p>Defect Investigation and Root Cause Analysis</p>
+</header>
+
+<main class="main-content">
+    <h2>Traceability Investigation</h2>
+    <p>Enter a Defect ID to investigate its manufacturing history.</p>
+
+    <div>
+        <label for="defect-id">Defect ID:</label>
+        <input
+            type="text"
+            id="defect-id"
+            placeholder="Example: DEF-000001"
+        >
+        <button onclick="investigateDefect()">Investigate</button>
+    </div>
+
+    <p id="trace-status"></p>
+
+    <section id="trace-results" style="display:none;">
+
+        <h3>1. Defect Details</h3>
+        <div id="defect-details"></div>
+
+        <h3>2. Inspection Result</h3>
+        <div id="inspection-details"></div>
+
+        <h3>3. Production Order and Product</h3>
+        <div id="order-details"></div>
+
+        <h3>4. Material Lots and Suppliers</h3>
+        <div id="material-details"></div>
+
+        <h3>5. Machines and Process Steps</h3>
+        <div id="machine-details"></div>
+
+        <h3>6. Corrective and Preventive Actions</h3>
+        <div id="capa-details"></div>
+
+    </section>
+
+    <p><a href="index.html">Back to Dashboard</a></p>
+</main>
+
+<script src="traceability.js"></script>
+</body>
+</html>

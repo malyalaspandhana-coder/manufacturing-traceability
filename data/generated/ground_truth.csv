@@ -1,0 +1,6 @@
+exception_id,scenario,expected_result,validation_rule
+EX-01,Nonexistent material lot,REJECT,Material lot must exist
+EX-02,BOM material not consumed,REJECT,All required BOM materials must be consumed
+EX-03,CAPA closed before verification,REJECT,CAPA must be verified before closure
+EX-04,Defect quantity exceeds inspected quantity,REJECT,Defect quantity must not exceed inspected quantity
+EX-05,Broken traceability relationship,REJECT,All traceability references must be valid

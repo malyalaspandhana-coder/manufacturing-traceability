@@ -1,0 +1,32 @@
+[
+  {
+    "exception_id":"EX-01",
+    "scenario":"Nonexistent material lot",
+    "expected_result":"REJECT",
+    "validation_rule":"Material lot must exist"
+  },
+  {
+    "exception_id":"EX-02",
+    "scenario":"BOM material not consumed",
+    "expected_result":"REJECT",
+    "validation_rule":"All required BOM materials must be consumed"
+  },
+  {
+    "exception_id":"EX-03",
+    "scenario":"CAPA closed before verification",
+    "expected_result":"REJECT",
+    "validation_rule":"CAPA must be verified before closure"
+  },
+  {
+    "exception_id":"EX-04",
+    "scenario":"Defect quantity exceeds inspected quantity",
+    "expected_result":"REJECT",
+    "validation_rule":"Defect quantity must not exceed inspected quantity"
+  },
+  {
+    "exception_id":"EX-05",
+    "scenario":"Broken traceability relationship",
+    "expected_result":"REJECT",
+    "validation_rule":"All traceability references must be valid"
+  }
+]

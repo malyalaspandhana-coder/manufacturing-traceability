@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Lot Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manufacturing Traceability System</h1>
+        <p>Smart Production & Quality Monitoring</p>
+    </header>
+
+    <main class="main-content">
+        <h2>Material Lot Management</h2>
+        <p>View and monitor received materials and supplier batches.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Lot ID</th>
+                    <th>Supplier ID</th>
+                    <th>Material Name</th>
+                    <th>Quantity Received</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="material-lots-table">
+                <tr>
+                    <td colspan="5">Loading material lots...</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><a href="index.html">Back to Dashboard</a></p>
+    </main>
+
+    <script src="material_lots.js"></script>
+</body>
+</html>
+

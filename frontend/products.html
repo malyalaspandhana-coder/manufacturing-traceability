@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="page-header">
+        <h1>YottaFlex Manufacturing System</h1>
+        <p>Manufacturing Traceability Platform</p>
+    </header>
+
+    <main class="page-container">
+        <div class="page-heading">
+            <div>
+                <h2>Product Management</h2>
+                <p>View registered products and their details.</p>
+            </div>
+            <a href="index.html" class="back-link">← Back to Dashboard</a>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody id="products-table">
+                    <tr>
+                        <td colspan="4">Loading products...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p id="page-status">Connecting to server...</p>
+    </main>
+
+    <script src="products.js"></script>
+</body>
+</html>

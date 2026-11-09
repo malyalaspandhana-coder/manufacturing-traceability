@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Traceability Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="factory-icon">🏭</div>
+            <h1>Manufacturing Traceability System</h1>
+            <p>Smart Production & Quality Monitoring Dashboard</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="app-layout">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <h2 class="sidebar-title">YottaFlex</h2>
+        <p class="sidebar-subtitle">Manufacturing System</p>
+
+        <nav class="sidebar-nav">
+            <a href="index.html" class="nav-link active">Dashboard</a>
+            <a href="products.html" class="nav-link">Products</a>
+            <a href="suppliers.html" class="nav-link">Suppliers</a>
+            <a href="material_lots.html" class="nav-link">Material Lots</a>
+            <a href="production_orders.html" class="nav-link">Production Orders</a>
+            <a href="machines_process.html" class="nav-link">Machines & Process Steps</a>
+            <a href="quality_inspections.html" class="nav-link">Quality Inspections</a>
+            <a href="defect_management.html" class="nav-link">Defect Management</a>
+            <a href="capa_management.html" class="nav-link">CAPA Management</a>
+            <a href="material_consumption.html" class="nav-link">Material Consumption</a>
+            <a href="traceability.html" class="nav-link">Traceability Investigation</a>
+        </nav>
+    </aside>
+
+    <!-- Main Dashboard Content -->
+    <div class="main-content">
+
+        <h2 class="welcome-title">Dashboard Overview</h2>
+        <p class="welcome-text">Monitor your manufacturing operations in one place.</p>
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard">
+
+            <div class="card">
+                <div class="card-icon products-icon">📦</div>
+                <h3>Total Products</h3>
+                <p id="products">Loading...</p>
+                <span class="card-note">Products registered</span>
+            </div>
+
+            <div class="card">
+                <div class="card-icon suppliers-icon">🚚</div>
+                <h3>Total Suppliers</h3>
+                <p id="suppliers">Loading...</p>
+                <span class="card-note">Registered suppliers</span>
+            </div>
+
+            <div class="card">
+                <div class="card-icon inspection-icon">🔍</div>
+                <h3>Inspection Results</h3>
+                <p id="inspections">Loading...</p>
+                <span class="card-note">Quality monitoring</span>
+            </div>
+
+            <div class="card">
+                <div class="card-icon status-icon">⚙️</div>
+                <h3>System Status</h3>
+                <p id="status">Connecting...</p>
+                <span class="card-note">Live system connection</span>
+            </div>
+            <div class="card">
+    <div class="card-icon">⚙️</div>
+    <h3>Total Machines</h3>
+    <p id="machines">Loading...</p>
+    <span class="card-note">Registered machines</span>
+</div>
+
+<div class="card">
+    <div class="card-icon">🔄</div>
+    <h3>Process Steps</h3>
+    <p id="process-steps">Loading...</p>
+    <span class="card-note">Production activities</span>
+</div>
+
+<div class="card">
+    <div class="card-icon">⚠️</div>
+    <h3>Defect Records</h3>
+    <p id="defects">Loading...</p>
+    <span class="card-note">Quality defects tracked</span>
+</div>
+
+<div class="card">
+    <div class="card-icon">📋</div>
+    <h3>CAPA Records</h3>
+    <p id="capa">Loading...</p>
+    <span class="card-note">Corrective actions</span>
+</div>
+
+    <div class="card">
+    <div class="card-icon">📦</div>
+    <h3>Material Consumption</h3>
+    <p id="material-consumption">Loading...</p>
+    <span class="card-note">Material used in production</span>
+</div>
+</section>
+
+        <!-- Production Analytics -->
+        <section class="analytics-section">
+            <h2>📊 Production Analytics</h2>
+
+            <div class="charts-container">
+
+                <div class="chart-card">
+                    <h3>📦 Product Categories</h3>
+                    <canvas id="categoryChart"></canvas>
+                </div>
+
+                <div class="chart-card">
+                    <h3>🚚 Supplier Status</h3>
+                    <canvas id="supplierChart"></canvas>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Product Details -->
+        <section class="data-section">
+            <h2>📋 Product Details</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody id="products-table"></tbody>
+            </table>
+        </section>
+
+        <!-- Supplier Details -->
+        <section class="data-section">
+            <h2>🏢 Supplier Details</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Supplier ID</th>
+                        <th>Supplier Name</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="suppliers-table"></tbody>
+            </table>
+        </section>
+
+
+        <footer>
+            <p>Manufacturing Traceability System | Production Monitoring</p>
+        </footer>
+        </div>
+    </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

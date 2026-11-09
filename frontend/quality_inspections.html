@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Inspections | YottaFlex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>Manufacturing Traceability System</h1>
+    <p>Smart Production & Quality Monitoring</p>
+</header>
+
+<main class="main-content">
+    <h2>Quality Inspection Management</h2>
+    <p>Monitor inspection results and identify defective production orders.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Inspection ID</th>
+                <th>Production Order ID</th>
+                <th>Inspected Quantity</th>
+                <th>Defect Quantity</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody id="inspection-table">
+            <tr>
+                <td colspan="5">Loading inspection records...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="inspection-status">Connecting to server...</p>
+    <p><a href="index.html">Back to Dashboard</a></p>
+</main>
+
+<script src="quality_inspections.js"></script>
+</body>
+</html>
